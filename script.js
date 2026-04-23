@@ -46,7 +46,7 @@ submitBtn.addEventListener('click', function() {
     if (enteredPassword === correctPassword) {
         // If correct, trigger download
         const link = document.createElement('a');
-        link.href = 'CV.pdf'; // Replace with your actual CV file path
+        link.href = 'Hakim_Tuyisenge_CV.pdf'; // Replace with your actual CV file path
         link.download = 'Hakim_Tuyisenge_CV.pdf';
         document.body.appendChild(link);
         link.click();
